@@ -3,18 +3,7 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import torch
 from main_torch import MLP
-
-def fetch(url):
-  import requests, gzip, os, hashlib, numpy
-  fp = os.path.join("/tmp", hashlib.md5(url.encode('utf-8')).hexdigest())
-  if os.path.isfile(fp):
-    with open(fp, "rb") as f:
-      dat = f.read()
-  else:
-    with open(fp, "wb") as f:
-      dat = requests.get(url).content
-      f.write(dat)
-  return numpy.frombuffer(gzip.decompress(dat), dtype=np.uint8).copy()
+from fetcher import fetch
 
 X_train = fetch("http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz")[0x10:].reshape((-1, 28, 28))
 Y_train = fetch("http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz")[8:]
@@ -42,8 +31,6 @@ def numpy_eval():
   Y_test_preds_out = forward(X_test.reshape((-1, 28*28)))
   Y_test_preds = np.argmax(Y_test_preds_out, axis=1)
   return (Y_test == Y_test_preds).mean()
-
-
 
 # numpy forward and backward pass
 
