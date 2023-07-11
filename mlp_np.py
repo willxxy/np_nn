@@ -130,16 +130,16 @@ def layer_init(input_dim, output_dim):
 def logsumexp(x):
     
     """
-    This function calculates the log-sum-exp of an input array `x`, which is a numerically stable way to 
-    compute the sum of exponentiated values. The function first finds the maximum value along each row of `x` and 
-    subtracts it from `x` to avoid numerical overflow. Then, it exponentiates the modified `x`, computes the sum along each row, 
+    This function calculates the log-sum-exp of an input array x, which is a numerically stable way to 
+    compute the sum of exponentiated values. The function first finds the maximum value along each row of x and 
+    subtracts it from x to avoid numerical overflow. Then, it exponentiates the modified x, computes the sum along each row, 
     and takes the logarithm of the sums.
 
     Parameters:
     - x (np.ndarray): The input array of shape (num_samples, num_values).
 
     Returns:
-    - result (np.ndarray): The log-sum-exp of `x`, a 1D array of shape (num_samples,), containing the calculated values.
+    - result (np.ndarray): The log-sum-exp of x, a 1D array of shape (num_samples,), containing the calculated values.
     """
     
     c = x.max(axis=1)
