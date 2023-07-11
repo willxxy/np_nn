@@ -34,3 +34,53 @@ If you are trying to understand what goes on "under the hood" in neural networks
 |[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9635    | 
 |**Ours**| 0.9805    | 
 
+
+## Setup
+
+Please download the appropriate miniconda3 for your OS at this [link](https://docs.conda.io/en/latest/miniconda.html). 
+
+After downloading miniconda3, open your terminal or command prompt and type/execute the following command:
+
+`
+conda
+`
+
+If you see an output like the following:
+
+`
+usage: conda [-h] [-V] command ...
+`
+
+`
+conda is a tool for managing and deploying applications, environments and packages.
+`
+
+you have successfully downloaded conda and can now set up your environment.
+
+Please type/execute the following command to create a virtual environment with a specific Python version:
+
+`
+conda create -n myenv python=3.8.16
+`
+
+Please type/execute the following command to activate your virtual environment:
+
+`
+conda activate myenv
+`
+
+Now that your virtual environment is activated, please 
+
+
+Please type/execute the following command to download the necessary packages and their respective versions:
+
+`
+pip install -r requirements.txt
+
+`
+
+
+
+
+
+
