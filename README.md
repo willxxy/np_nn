@@ -89,6 +89,19 @@ Please type/execute the following command to download the necessary packages and
 pip install -r requirements.txt
 `
 
+After installing the necessary requirements, you can now start training!
+
+Execute the following command to train the numpy version of a neural network:
+
+`
+python main_np.py
+`
+
+Execute the following command to train the pytorch version of a neural network:
+
+`
+python main_torch.py
+`
 
 
 
