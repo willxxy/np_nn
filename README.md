@@ -12,9 +12,18 @@ Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratc
 
 ![Loss](./loss_plot_torch.png)
 
+| Test Accuracy | Batch Size | Number of Layers |
+|----------|------------|-----------------|
+| 0.9635    | 128        | 3               |
+
+
 
 ### Numpy
 
 ![Accuracy](./accuracy_plot_np.png)
 
 ![Loss](./loss_plot_np.png)
+
+| Test Accuracy | Batch Size | Number of Layers |
+|----------|------------|-----------------|
+| 0.85     | 128        | 3               |
