@@ -24,7 +24,7 @@ if __name__ == '__main__':
     batch_size = 256
     losses, accuracies = [], []
     
-    for i in tqdm(range(3000), desc = 'Training Numpy MLP'):
+    for i in tqdm(range(4000), desc = 'Training Numpy MLP'):
         sample = np.random.randint(0, X_train.shape[0], size=(batch_size))
         X = X_train[sample].reshape((-1, 28*28))
         Y = Y_train[sample]

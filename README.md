@@ -17,7 +17,7 @@ If you are trying to understand what goes on "under the hood" in neural networks
 |Comparions| Test Accuracy |
 |-----------|----------|
 |[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9288    | 
-|**Ours**| 0.9617    | 
+|**Ours**| 0.9633    | 
 
 
 
@@ -32,5 +32,5 @@ If you are trying to understand what goes on "under the hood" in neural networks
 |Comparions| Test Accuracy |
 |-----------|----------|
 |[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9635    | 
-|**Ours**| 0.9783    | 
+|**Ours**| 0.9805    | 
 
