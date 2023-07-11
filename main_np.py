@@ -5,7 +5,7 @@ import torch
 
 from mlp_torch import MLP
 from fetcher import fetch
-from mlp_np import forward, forward_backward, numpy_eval, logsumexp, layer_init
+from mlp_np import MLP, numpy_eval, layer_init
 
 
 if __name__ == '__main__':
@@ -28,7 +28,7 @@ if __name__ == '__main__':
         sample = np.random.randint(0, X_train.shape[0], size=(BS))
         X = X_train[sample].reshape((-1, 28*28))
         Y = Y_train[sample]
-        x_loss, x_layer2, d_layer1, d_layer2 = forward_backward(X, Y, layer1, layer2)
+        x_loss, x_layer2, d_layer1, d_layer2 = MLP(X, Y, layer1, layer2)
         
         cat = np.argmax(x_layer2, axis=1)
         accuracy = (cat == Y).mean()

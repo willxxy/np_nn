@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import torch
 import torch.nn as nn
 
-from mlp import MLP
+from mlp_torch import MLP
 from fetcher import fetch
 
 
