@@ -48,6 +48,8 @@ If you see an output like the following:
 
 `
 usage: conda [-h] [-V] command ...
+`
+`
 conda is a tool for managing and deploying applications, environments and packages.
 `
 
