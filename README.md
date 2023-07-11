@@ -40,7 +40,7 @@ If you are trying to understand what goes on "under the hood" in neural networks
 1) Please download the appropriate miniconda3 for your OS at this [link](https://docs.conda.io/en/latest/miniconda.html). 
 2) After downloading miniconda3, open your terminal or command prompt and execute the following command:
 
-``` conda ```
+"""conda"""
 
 If you see an output like the following:
 
