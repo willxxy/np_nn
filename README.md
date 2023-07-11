@@ -46,9 +46,10 @@ conda
 
 If you see an output like the following:
 
-`usage: conda [-h] [-V] command ...
-
-conda is a tool for managing and deploying applications, environments and packages.`
+`
+usage: conda [-h] [-V] command ...
+conda is a tool for managing and deploying applications, environments and packages.
+`
 
 you have successfully downloaded conda and can now set up your environment.
 
