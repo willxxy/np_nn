@@ -80,9 +80,9 @@ If you are trying to understand what goes on "under the hood" in neural networks
 
 ### Pytorch
 
-![Accuracy](./learning_curves/accuracy_plot_torch.png)
+![Pytorch Accuracy](./learning_curves/accuracy_plot_torch.png)
 
-![Loss](./learning_curves/loss_plot_torch.png)
+![Pytorch Loss](./learning_curves/loss_plot_torch.png)
 
 |Comparions| Test Accuracy |
 |-----------|----------|
@@ -94,9 +94,9 @@ If you are trying to understand what goes on "under the hood" in neural networks
 
 ### Numpy
 
-![Accuracy](./learning_curves/accuracy_plot_np.png)
+![Numpy Accuracy](./learning_curves/accuracy_plot_np.png)
 
-![Loss](./learning_curves/loss_plot_np.png)
+![Numpy Loss](./learning_curves/loss_plot_np.png)
 
 
 |Comparions| Test Accuracy |

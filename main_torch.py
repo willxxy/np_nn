@@ -65,7 +65,7 @@ if __name__ == '__main__':
     plt.xlabel('Iteration')
     plt.ylabel('Loss')
     plt.ylim(-0.1, 1.1)
-    plt.title('Training Loss')
+    plt.title('Pytorch Training Loss')
     plt.savefig('./learning_curves/loss_plot_torch.png')
     plt.close()
 
@@ -74,7 +74,7 @@ if __name__ == '__main__':
     plt.xlabel('Iteration')
     plt.ylabel('Accuracy')
     plt.ylim(-0.1, 1.1)
-    plt.title('Training Accuracy')
+    plt.title('Pytorch Training Accuracy')
     plt.savefig('./learning_curves/accuracy_plot_torch.png')
     plt.close()
     
