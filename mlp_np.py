@@ -22,8 +22,8 @@ def forward(x, layer1, layer2):
 
     Parameters:
     - x (np.ndarray): The input data sample of shape (num_features,).
-    - layer1 (np.ndarray): The weight matrix of the first layer of the multilayer perceptron.
-    - layer2 (np.ndarray): The weight matrix of the second layer of the multilayer perceptron.
+    - layer1 (np.ndarray): The weight matrix of the first layer of the MLP.
+    - layer2 (np.ndarray): The weight matrix of the second layer of the MLP.
 
     Returns:
     - x_layer1 (np.ndarray): The output of the first layer before applying the activation function.
@@ -49,15 +49,17 @@ def forward(x, layer1, layer2):
 # backward pass
 def backward(out, x, y, layer2, x_logsumexp, x_relu):
     """
-    Perform the backward pass of a multilayer perceptron model.
+    Perform the backward pass of a MLP.
 
-    This function takes the output of the forward pass, input data, true labels, and intermediate outputs of a multilayer perceptron model, and computes the gradients of the model's parameters using backpropagation. It calculates the gradients of the loss with respect to the weights of each layer.
+    This function takes the output of the forward pass, input data, true labels, and intermediate outputs of a MLP, 
+    and computes the gradients of the model's parameters using backpropagation. 
+    It calculates the gradients of the loss with respect to the weights of each layer.
 
     Parameters:
     - out (np.ndarray): The output of the forward pass of the model.
     - x (np.ndarray): The input data of shape (num_samples, num_features).
     - y (np.ndarray): The true labels of the input data, encoded as one-hot vectors of shape (num_samples, num_classes).
-    - layer2 (np.ndarray): The weight matrix of the second layer of the multilayer perceptron.
+    - layer2 (np.ndarray): The weight matrix of the second layer of the MLP.
     - x_logsumexp (np.ndarray): The intermediate output of the log-sum-exp operation in the forward pass.
     - x_relu (np.ndarray): The intermediate output of the ReLU activation function in the forward pass.
 
@@ -109,7 +111,7 @@ def numpy_eval(X_test, Y_test, layer1, layer2):
 
 def layer_init(input_dim, output_dim):
     """
-    This function generates and returns a weight matrix for a layer in a multilayer perceptron. 
+    This function generates and returns a weight matrix for a layer in a MLP. 
     The weight matrix is initialized using a uniform distribution between -1 and 1, 
     and then scaled by the square root of the product of the input and output dimensions. 
     The resulting matrix is of type np.float32.
@@ -128,16 +130,16 @@ def layer_init(input_dim, output_dim):
 def logsumexp(x):
     
     """
-    This function calculates the log-sum-exp of an input array `x`, which is a numerically stable way to 
-    compute the sum of exponentiated values. The function first finds the maximum value along each row of `x` and 
-    subtracts it from `x` to avoid numerical overflow. Then, it exponentiates the modified `x`, computes the sum along each row, 
+    This function calculates the log-sum-exp of an input array x, which is a numerically stable way to 
+    compute the sum of exponentiated values. The function first finds the maximum value along each row of x and 
+    subtracts it from x to avoid numerical overflow. Then, it exponentiates the modified x, computes the sum along each row, 
     and takes the logarithm of the sums.
 
     Parameters:
     - x (np.ndarray): The input array of shape (num_samples, num_values).
 
     Returns:
-    - result (np.ndarray): The log-sum-exp of `x`, a 1D array of shape (num_samples,), containing the calculated values.
+    - result (np.ndarray): The log-sum-exp of x, a 1D array of shape (num_samples,), containing the calculated values.
     """
     
     c = x.max(axis=1)
