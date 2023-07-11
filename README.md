@@ -112,6 +112,6 @@ If there are discrepancies (anything greater than +-0.01) between your test accu
 
 
 TODO
-[] Create visualizations for forward and backward passes
-[] Create PDF slides for more in-depth descriptions and background of neural networks. 
-[] Implement more models
+- [] Create visualizations for forward and backward passes
+- [] Create PDF slides for more in-depth descriptions and background of neural networks. 
+- [] Implement more models
