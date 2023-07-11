@@ -52,7 +52,7 @@ if __name__ == '__main__':
     plt.ylabel('Loss')
     plt.ylim(-0.1, 1.1)
     plt.title('Training Loss')
-    plt.savefig('loss_plot_np.png')
+    plt.savefig('./learning_curves/loss_plot_np.png')
     plt.close()
 
     # Plot accuracies
@@ -61,5 +61,5 @@ if __name__ == '__main__':
     plt.ylabel('Accuracy')
     plt.ylim(-0.1, 1.1)
     plt.title('Training Accuracy')
-    plt.savefig('accuracy_plot_np.png')
+    plt.savefig('./learning_curves/accuracy_plot_np.png')
     plt.close()
