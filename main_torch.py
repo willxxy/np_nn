@@ -21,10 +21,10 @@ if __name__ == '__main__':
     
     # stochastic gradient descent (sgd)
     sgd_optimizer = torch.optim.SGD(model.parameters(), lr=0.001, momentum=0)
-    batch_size = 128
+    batch_size = 256
     losses, accuracies = [], []
     
-    for i in tqdm(range(1000), desc = 'Training Pytorch MLP:'):
+    for i in tqdm(range(4000), desc = 'Training Pytorch MLP:'):
         
         sample = np.random.randint(0, X_train.shape[0], size=(batch_size))
         

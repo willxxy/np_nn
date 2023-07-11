@@ -21,10 +21,10 @@ if __name__ == '__main__':
     layer2 = layer_init(512, 10)
 
     learning_rate = 0.001
-    batch_size = 128
+    batch_size = 1024
     losses, accuracies = [], []
     
-    for i in tqdm(range(1000), desc = 'Training Numpy MLP'):
+    for i in tqdm(range(3000), desc = 'Training Numpy MLP'):
         sample = np.random.randint(0, X_train.shape[0], size=(batch_size))
         X = X_train[sample].reshape((-1, 28*28))
         Y = Y_train[sample]
