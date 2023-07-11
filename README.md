@@ -72,7 +72,7 @@ Execute the following command to train the pytorch version of a neural network:
 python main_torch.py
 `
 
-If you are trying to understand what goes on "under the hood" in neural networks, I recommend referring to the documentation in `mlp_np.py`.
+If you desire to understand what goes on "under the hood" in neural networks, I recommend referring to the documentation in `mlp_np.py`.
 
 
 
@@ -111,5 +111,7 @@ If there are discrepancies (anything greater than +-0.01) between your test accu
 
 
 
-
-
+TODO
+[] Create visualizations for forward and backward passes
+[] Create PDF slides for more in-depth descriptions and background of neural networks. 
+[] Implement more models
