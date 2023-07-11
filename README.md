@@ -17,7 +17,7 @@ If you are trying to understand what goes on "under the hood" in neural networks
 |Comparions| Test Accuracy |
 |-----------|----------|
 |[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9288    | 
-|**Ours**| 0.9617    | 
+|**Ours**| 0.9633    | 
 
 
 
@@ -32,7 +32,7 @@ If you are trying to understand what goes on "under the hood" in neural networks
 |Comparions| Test Accuracy |
 |-----------|----------|
 |[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9635    | 
-|**Ours**| 0.9783    | 
+|**Ours**| 0.9805    | 
 
 
 ## Setup
@@ -56,5 +56,30 @@ conda is a tool for managing and deploying applications, environments and packag
 `
 
 you have successfully downloaded conda and can now set up your environment.
+
+Please type/execute the following command to create a virtual environment with a specific Python version:
+
+`
+conda create -n myenv python=3.8.16
+`
+
+Please type/execute the following command to activate your virtual environment:
+
+`
+conda activate myenv
+`
+
+Now that your virtual environment is activated,
+
+
+Please type/execute the following command to download the necessary packages and their respective versions:
+
+`
+pip install -r requirements.txt
+`
+
+
+
+
 
 
