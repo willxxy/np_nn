@@ -37,8 +37,9 @@ If you are trying to understand what goes on "under the hood" in neural networks
 
 ## Setup
 
-1) Please download the appropriate miniconda3 for your OS at this [link](https://docs.conda.io/en/latest/miniconda.html). 
-2) After downloading miniconda3, open your terminal or command prompt and type/execute the following command:
+Please download the appropriate miniconda3 for your OS at this [link](https://docs.conda.io/en/latest/miniconda.html). 
+
+After downloading miniconda3, open your terminal or command prompt and type/execute the following command:
 
 `
 conda
@@ -56,4 +57,4 @@ conda is a tool for managing and deploying applications, environments and packag
 
 you have successfully downloaded conda and can now set up your environment.
 
-3)
+
