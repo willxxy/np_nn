@@ -15,7 +15,7 @@ if __name__ == '__main__':
     X_test = fetch("http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz")[0x10:].reshape((-1, 28, 28))
     Y_test = fetch("http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz")[8:]
     
-    # reinit
+    # initialize MLP layers
     np.random.seed(1337)
     layer1 = layer_init(784, 512)
     layer2 = layer_init(512, 10)
@@ -33,7 +33,7 @@ if __name__ == '__main__':
         cat = np.argmax(x_layer2, axis=1)
         accuracy = (cat == Y).mean()
         
-        # SGD
+        # stochastic gradient descent
         layer1 = layer1 - learning_rate*d_layer1
         layer2 = layer2 - learning_rate*d_layer2
         
