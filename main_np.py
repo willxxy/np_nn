@@ -21,7 +21,7 @@ if __name__ == '__main__':
     layer2 = layer_init(512, 10)
 
     learning_rate = 0.001
-    batch_size = 1024
+    batch_size = 256
     losses, accuracies = [], []
     
     for i in tqdm(range(3000), desc = 'Training Numpy MLP'):
