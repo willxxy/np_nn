@@ -9,7 +9,8 @@ class MLP(torch.nn.Module):
     self.layer1 = nn.Linear(784, 512, bias=False)
     self.layer2 = nn.Linear(512, 10, bias=False)
     self.softmax = nn.LogSoftmax(dim=1)
-    
+  
+  # essentiall forward() function in mlp_np.py  
   def forward(self, x):
     x = F.relu(self.layer1(x))
     x = self.layer2(x)

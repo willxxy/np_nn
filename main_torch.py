@@ -33,6 +33,7 @@ if __name__ == '__main__':
         
         model.zero_grad()
         
+        # feed input into model (MLP)
         out = model(X)
         cat = torch.argmax(out, dim=1)
         
@@ -40,6 +41,8 @@ if __name__ == '__main__':
         
         loss = negative_log_likelihood_loss(out, Y)
         loss = loss.mean()
+        
+        # essentially backward() function in mlp_np.py
         loss.backward()
         
         sgd_optimizer.step()
@@ -74,3 +77,4 @@ if __name__ == '__main__':
     plt.title('Training Accuracy')
     plt.savefig('accuracy_plot_torch.png')
     plt.close()
+    
