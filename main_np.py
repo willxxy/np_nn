@@ -17,15 +17,15 @@ if __name__ == '__main__':
     
     # reinit
     np.random.seed(1337)
-    layer1 = layer_init(784, 128)
-    layer2 = layer_init(128, 10)
+    layer1 = layer_init(784, 512)
+    layer2 = layer_init(512, 10)
 
     learning_rate = 0.001
-    BS = 128
+    batch_size = 128
     losses, accuracies = [], []
     
     for i in tqdm(range(1000), desc = 'Training Numpy MLP'):
-        sample = np.random.randint(0, X_train.shape[0], size=(BS))
+        sample = np.random.randint(0, X_train.shape[0], size=(batch_size))
         X = X_train[sample].reshape((-1, 28*28))
         Y = Y_train[sample]
         x_loss, x_layer2, d_layer1, d_layer2 = MLP(X, Y, layer1, layer2)
