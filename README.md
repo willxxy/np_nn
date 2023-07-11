@@ -14,9 +14,10 @@ If you are trying to understand what goes on "under the hood" in neural networks
 
 ![Loss](./loss_plot_torch.png)
 
-| Test Accuracy | Batch Size | Number of Layers |
-|----------|------------|-----------------|
-| 0.9483    | 128        | 2               |
+|Comparions| Test Accuracy |
+|-----------|----------|
+|Ours| 0.9483    | 
+|geohot| 0.9288    | 
 
 
 
@@ -26,6 +27,8 @@ If you are trying to understand what goes on "under the hood" in neural networks
 
 ![Loss](./loss_plot_np.png)
 
-| Test Accuracy | Batch Size | Number of Layers |
-|----------|------------|-----------------|
-| 0.9667     | 128        | 2               |
+
+|Comparions| Test Accuracy |
+|-----------|----------|
+|Ours| 0.9667    | 
+|geohot| 0.9635    | 
