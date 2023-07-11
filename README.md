@@ -69,15 +69,27 @@ Please type/execute the following command to activate your virtual environment:
 conda activate myenv
 `
 
-Now that your virtual environment is activated, please 
+Now that your virtual environment is activated, please clone this repository with the following command:
 
+`
+git clone https://github.com/willxxy/np_nn.git
+`
+
+If you do not have git downloaded, please download git for your respective OS at this [link](https://git-scm.com/)
+
+Once you have cloned the repository, please change your directory to the repository by typing/executing the following command:
+
+`
+cd np_nn
+`
 
 Please type/execute the following command to download the necessary packages and their respective versions:
 
 `
 pip install -r requirements.txt
-
 `
+
+
 
 
 
