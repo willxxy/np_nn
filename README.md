@@ -78,6 +78,11 @@ If you are trying to understand what goes on "under the hood" in neural networks
 
 ## Performances
 
+Please note that the performance may be slightly different. 
+
+If there are discrepancies (anything greater than +-0.01) between your test accuracy and ours, please reach out by submitting an issue or email wjhan{at}andrew{dot}cmu{dot}edu.
+
+
 ### Pytorch
 
 ![Pytorch Accuracy](./learning_curves/accuracy_plot_torch.png)
