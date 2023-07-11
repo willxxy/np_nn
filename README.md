@@ -4,6 +4,8 @@ Simple implementation of feed forward and backward passes of a neural network wi
 
 Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb. 
 
+If you are trying to understand what goes on "under the hood" in neural networks, please refer to `mlp_np.py`.
+
 ## Performances
 
 ### Pytorch
