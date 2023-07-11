@@ -86,8 +86,8 @@ If you are trying to understand what goes on "under the hood" in neural networks
 
 |Comparions| Test Accuracy |
 |-----------|----------|
-|[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9288    | 
-|**Ours**| 0.9633    | 
+|[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9288    |  128 | 784| 128 | 1000 | 0.001 | 
+|**Ours**| 0.9633    | 256 | 784| 512 | 4000 | 0.001 | 
 
 
 
@@ -99,10 +99,10 @@ If you are trying to understand what goes on "under the hood" in neural networks
 ![Numpy Loss](./learning_curves/loss_plot_np.png)
 
 
-|Comparions| Test Accuracy |
-|-----------|----------|
-|[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9635    | 
-|**Ours**| 0.9805    | 
+|Comparions| Test Accuracy | Batch Size | Layer 1 Size | Layer 2 Size | Epochs | Learning Rate | 
+|-----------|----------|----------|----------|----------|----------|----------|
+|[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9635    | 128 | 784| 128 | 1000 | 0.001 | 
+|**Ours**| 0.9805    | 256 | 784| 512 | 4000 | 0.001 | 
 
 
 
