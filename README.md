@@ -16,7 +16,7 @@ If you are trying to understand what goes on "under the hood" in neural networks
 
 | Test Accuracy | Batch Size | Number of Layers |
 |----------|------------|-----------------|
-| 0.9476    | 128        | 2               |
+| 0.9483    | 128        | 2               |
 
 
 
