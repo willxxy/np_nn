@@ -14,7 +14,7 @@ Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratc
 
 | Test Accuracy | Batch Size | Number of Layers |
 |----------|------------|-----------------|
-| 0.9635    | 128        | 3               |
+| 0.9635    | 128        | 2               |
 
 
 
@@ -26,4 +26,4 @@ Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratc
 
 | Test Accuracy | Batch Size | Number of Layers |
 |----------|------------|-----------------|
-| 0.85     | 128        | 3               |
+| 0.85     | 128        | 2               |
