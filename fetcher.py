@@ -5,6 +5,10 @@ import os
 import hashlib
 
 def fetch(url):
+  
+  '''
+  This function simply fetches the MNIST data.
+  '''
   fp = os.path.join("/tmp", hashlib.md5(url.encode('utf-8')).hexdigest())
   if os.path.isfile(fp):
     with open(fp, "rb") as f:
