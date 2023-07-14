@@ -73,8 +73,6 @@ The historical narrative of neural networks highlights significant milestones an
   <img src="/png/applications.png" style="height: 300; width:600px; display: block; margin: 0 auto"/>
 </p>
 
-Although neural networks have been able to do amazing things, an important con to note is that it requires huge amounts of data. Luckily, there are many areas of research in 
-the machine learning community dedicated in solving complex problems with neural networks given very limited data. 
 
 I hope you enjoyed my very brief introduction to machine learning. If you are curious to learn more about this fascinating topic, I will provide a list of resources
 I used for myself. 
