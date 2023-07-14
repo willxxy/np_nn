@@ -87,15 +87,15 @@ References
 
 (2) [Neural Networks](https://www.ibm.com/cloud/learn/neural-networks){:target="_blank"}
 
-(3) 
+(3) McCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The bulletin of mathematical biophysics, 5(4), 115-133.
 
-(4)
+(4) Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
 
-(5)
+(5) Rumelhart, D. E., Hinton, G. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. Nature, 323(6088), 533-536.
 
-(6)
+(6) Rosenblatt, F. (1958). The perceptron: A probabilistic model for information storage and organization in the brain. Psychological Review, 65(6), 386-408.
 
-(7)
+(7) LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444.
 
 
 
