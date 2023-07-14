@@ -42,6 +42,7 @@ This distillation is called feature extraction and machine learning algorithms c
 
 <p align="center">
   <img src="/png/mnist.png" style="height: 100; width:300px; display: block; margin: 0 auto"/>
+  <em>Note: We will be using this dataset!</em>
 </p>
 
 It is important to note that these features do not need to be complex. However, in practice, data is multidimensional, therefore 
