@@ -70,7 +70,7 @@ Training a neural network involves the iterative optimization algorithm called b
 The historical narrative of neural networks highlights significant milestones and breakthroughs that have shaped their present prominence. From early perceptron models [6] to the advent of backpropagation by Rumelhard et al. (1986) [5], each advancement has contributed to the sophistication and effectiveness of neural networks. Furthermore, the rise of convolutional neural networks [7] and recent developments in deep learning architectures have propelled the field to unprecedented achievements in computer vision, natural language processing, and beyond.
 
 <p align="center">
-  <img src="/png/applications.png" style="height: 100; width:300px; display: block; margin: 0 auto"/>
+  <img src="/png/applications.png" style="height: 200; width:400px; display: block; margin: 0 auto"/>
 </p>
 
 Although neural networks have been able to do amazing things, an important con to note is that it requires huge amounts of data. Luckily, there are many areas of research in 
