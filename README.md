@@ -7,8 +7,7 @@ Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratc
 ## Brief Introduction to Deep Learning
 
 Ever since I joined the [AI Club at UCI](https://aiclub.ics.uci.edu/){:target="_blank"} back in September 2021, I have been 
-furiously studying machine learning. Machine learning is something that is quite magical, and the last 50 to 70 years of research in statistics, neural
-networks, and more broadly, artificial intelligence, has definitely paved a 'work in progress' structure for people like myself to build upon.
+furiously studying machine learning. Machine learning is something that is quite magical, and the last 50 to 70 years of research in numerous fields, including but not limited to statistics, psychology, linguisitics, and of course, artificial intelligence, has definitely paved a 'work in progress' structure for people like myself to build upon.
 
 So with that, I want to start this attempt to introduce machine learning with a definition coined by [Dr. Peter Chang](https://www.faculty.uci.edu/profile.cfm?faculty_id=6569){:target="_blank"}, 
 a radiologist by training and Co-Director of the [Center for Artificial Intelligence in Diagnostic Medicine](https://www.caidm.som.uci.edu/){:target="_blank"}. He defines machine learning
