@@ -58,12 +58,6 @@ Now, what if there are no apparent features or parameters within a dataset? This
   <img src="/png/network.png" style="height: 200; width:400px; display: block; margin: 0 auto"/>
 </p>
 
-Neural networks were inspired by the activity of biological neurons in the human brain. Each circle in the image above is represented as a node, and there are 
-three main layers that comprises a neural network: the input layer, hidden layer, and output layer. Each node is linked to another and has an assigned weight and 
-threshold. If the output of any individual node is above a specified threshold value, the node is activated and sends the data to the next layer of the network (2). Otherwise,
-no data is passed. A neural network with n > 1 hidden layers is categorized as a deep neural network. Voice recognition, autonomous vehicles, facial recognition are some of the many tasks
-deep neural networks have made possible. 
-
 Neural networks have transformed the landscape of deep learning, propelling advancements in various domains by capturing complex patterns and making accurate predictions. 
 Rooted in a rich history that dates back to the groundbreaking work of McCulloch and Pitts in the 1940s \cite{mcculloch43a}, neural networks have witnessed remarkable progress in both theory and application. This introduction provides a concise and engaging overview of neural networks, presenting key mathematical concepts in a comprehensible manner while contextualizing their historical significance.
 
