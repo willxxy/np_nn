@@ -11,7 +11,7 @@ furiously studying machine learning. Machine learning is something that is quite
 
 So with that, I want to start this attempt to introduce machine learning with a definition coined by [Dr. Peter Chang](https://www.faculty.uci.edu/profile.cfm?faculty_id=6569){:target="_blank"}, 
 a radiologist by training and Co-Director of the [Center for Artificial Intelligence in Diagnostic Medicine](https://www.caidm.som.uci.edu/){:target="_blank"}. He defines machine learning
-algorithms as something that maps inputs to desired outputs through a model whose parameters may be trained through iterative exposure to data (1). 
+algorithms as something that maps inputs to desired outputs through a model whose parameters may be trained through iterative exposure to data [1]. 
 
 <p align="center">
   <img src="/png/machine_learning.png" style="height: 100; width:300px; display: block; margin: 0 auto"/>
@@ -67,7 +67,7 @@ At the heart of neural networks lies the concept of a weighted sum. Inputs are m
 
 Training a neural network involves the iterative optimization algorithm called backpropagation. By calculating gradients of the network's parameters (weights and biases) with respect to a loss function, backpropagation guides the network towards minimizing the loss and improving prediction performance [5]. Coupled with optimization techniques like stochastic gradient descent, neural networks adapt and enhance their predictions over time.
 
-The historical narrative of neural networks highlights significant milestones and breakthroughs that have shaped their present prominence. From early perceptron models \cite{Rosenblatt1958ThePA} to the advent of backpropagation by Rumelhard et al. (1986) [5], each advancement has contributed to the sophistication and effectiveness of neural networks. Furthermore, the rise of convolutional neural networks \cite{lecun2015deep} and recent developments in deep learning architectures have propelled the field to unprecedented achievements in computer vision, natural language processing, and beyond.
+The historical narrative of neural networks highlights significant milestones and breakthroughs that have shaped their present prominence. From early perceptron models [6] to the advent of backpropagation by Rumelhard et al. (1986) [5], each advancement has contributed to the sophistication and effectiveness of neural networks. Furthermore, the rise of convolutional neural networks [7] and recent developments in deep learning architectures have propelled the field to unprecedented achievements in computer vision, natural language processing, and beyond.
 
 Although neural networks have been able to do amazing things, an important con to note is that it requires huge amounts of data. Luckily, there are many areas of research in 
 the machine learning community dedicated in solving complex problems with neural networks given very limited data. 
@@ -83,19 +83,19 @@ I used for myself.
 
 References
 
-(1) [Machine Learning Definition](https://uci.yuja.com/V/MediaFile?mediaFile=420457&node=15536234&a=1231719205&autoplay=1){:target="_blank"}
+[1] [Machine Learning Definition](https://uci.yuja.com/V/MediaFile?mediaFile=420457&node=15536234&a=1231719205&autoplay=1){:target="_blank"}
 
-(2) [Neural Networks](https://www.ibm.com/cloud/learn/neural-networks){:target="_blank"}
+[2] [Neural Networks](https://www.ibm.com/cloud/learn/neural-networks){:target="_blank"}
 
-(3) McCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The bulletin of mathematical biophysics, 5(4), 115-133.
+[3] McCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The bulletin of mathematical biophysics, 5(4), 115-133.
 
-(4) Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
+[4] Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
 
-(5) Rumelhart, D. E., Hinton, G. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. Nature, 323(6088), 533-536.
+[5] Rumelhart, D. E., Hinton, G. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. Nature, 323(6088), 533-536.
 
-(6) Rosenblatt, F. (1958). The perceptron: A probabilistic model for information storage and organization in the brain. Psychological Review, 65(6), 386-408.
+[6] Rosenblatt, F. (1958). The perceptron: A probabilistic model for information storage and organization in the brain. Psychological Review, 65(6), 386-408.
 
-(7) LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444.
+[7] LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444.
 
 
 
