@@ -57,7 +57,8 @@ I will not go over any specific traditional machine learning algorithms, but her
 Now, what if there are no apparent features or parameters within a dataset? This is where neural networks shine. 
 
 <p align="center">
-  <img src="/png/network.png" style="height: 200; width:400px; display: block; margin: 0 auto"/>
+  <img src="/png/network.png" style="height: 200; width:400px; display: block; margin: 0 auto"/><br>
+  <em>A picture of a neural network. Each circle in the image above is represented as a node, and there are three main layers that comprises a neural network: the input layer, hidden layer(s), and output layer. Each node is linked to another and has an assigned weight and threshold. If the output of any individual node is above a specified threshold value, the node is activated and sends the data to the next layer of the network [2]. Otherwise, no data is passed. A neural network with n > 1 hidden layers is categorized as a deep neural network.</em>
 </p>
 
 Neural networks have transformed the landscape of deep learning, propelling advancements in various domains by capturing complex patterns and making accurate predictions. 
