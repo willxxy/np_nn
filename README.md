@@ -4,7 +4,7 @@ Simple implementation of feed forward and backward passes of a neural network wi
 
 Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb. 
 
-## Introduction to Machine Learning
+## Intro to Machine Learning
 
 Ever since I joined the [AI Club at UCI](https://aiclub.ics.uci.edu/){:target="_blank"} back in September 2021, I have been 
 furiously studying machine learning. Machine learning is something that is quite magical, and the last 50 to 70 years of research in statistics, neural
@@ -14,17 +14,18 @@ So with that, I want to start this attempt to introduce machine learning with a 
 a radiologist by training and Co-Director of the [Center for Artificial Intelligence in Diagnostic Medicine](https://www.caidm.som.uci.edu/){:target="_blank"}. He defines machine learning
 algorithms as something that maps inputs to desired outputs through a model whose parameters may be trained through iterative exposure to data (1). 
 
-
-<img src="/png/machine_learning.png" style="height: 100; width:300px; display: block; margin: 0 auto"/>
-
+<p align="center">
+  <img src="/png/machine_learning.png" style="height: 100; width:300px; display: block; margin: 0 auto"/>
+</p>
 
 Let's break this down. First, what is an algorithm? The Oxford dictionary defines it as 'a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.' So, in our case, the process or set of rules to be followed is to map inputs to desired outputs. The calculations or problem-solving operations would be performed in the model, and the parameters would be the variables that need to be computed while interacting with the inputs and outputs. These parameters than need to be exposed to an arbitrary set of data in a repetitive manner for it to 'train.' To further explain what the word 'trained' means in the definition, I believe a real-world example would be best.
 
 
 Let's say you want to have muscles like the person shown below. 
 
-
-<img src="/png/aesthetic.jpeg" style="height: 100; width:300px; display: block; margin: 0 auto"/>
+<p align="center">
+  <img src="/png/aesthetic.jpeg" style="height: 100; width:300px; display: block; margin: 0 auto"/>
+</p>
 
 
 The input would be one's body and the output would be muscles. The process or set of rules to be followed can be a strict diet or workout routine. Introducing your body to a strict diet and workout routine can be the mapping between the input and output. The model can be represented as the chosen diet or workout and the parameters would be the specific ingredients to the diet or workout, such as vegetables, meat, calisthenics, hard weights, etc. The training begins when you repeatedly engage your input (body) to the model (workout/diet), while continuously updating the parameters (best diet, best workout). In this example, the data would be somewhat synonymous with the parameters, but it can be set apart as the knowledge and experimentation of which diet or workout produces the desired output. If protein and pull ups seems to be producing the most muscle, one would want to constantly use and feed this data or knowledge into the model. If your model is trained successfully over a period of time, theoretically, you would have outputted some muscles. However, life and machine learning algorithms do not work this way and there are many confounding variables that you find along the process of training a successful model. For the sake of simplicity, I will not go into such adversarial components.
@@ -39,9 +40,9 @@ Traditional statistics is extremely good at finding linear relationships between
 To battle complex inputs and non-linearity, traditional machine learning algorithms try to refine complex data (e.g. image) into numbers represented as a vector.
 This distillation is called feature extraction and machine learning algorithms can capture rich traits of the data, such as spatial context, multi-resolution, locality, and globality. 
 
-
-<img src="/png/mnist.png" style="height: 100; width:300px; display: block; margin: 0 auto"/>
-
+<p align="center">
+  <img src="/png/mnist.png" style="height: 100; width:300px; display: block; margin: 0 auto"/>
+</p>
 
 It is important to note that these features do not need to be complex. However, in practice, data is multidimensional, therefore 
 a huge amount of research has gone into transforming N-dimensional feature vector projections to something computers can understand. 
@@ -54,9 +55,9 @@ I will not go over any specific traditional machine learning algorithms, but her
 
 Now, what if there are no apparent features or parameters within a dataset? This is where neural networks shine. 
 
-
-<img src="/png/network.png" style="height: 200; width:400px; display: block; margin: 0 auto"/>
-
+<p align="center">
+  <img src="/png/network.png" style="height: 200; width:400px; display: block; margin: 0 auto"/>
+</p>
 
 Neural networks were inspired by the activity of biological neurons in the human brain. Each circle in the image above is represented as a node, and there are 
 three main layers that comprises a neural network: the input layer, hidden layer, and output layer. Each node is linked to another and has an assigned weight and 
@@ -81,6 +82,7 @@ References
 (1) [Machine Learning Definition](https://uci.yuja.com/V/MediaFile?mediaFile=420457&node=15536234&a=1231719205&autoplay=1){:target="_blank"}
 
 (2) [Neural Networks](https://www.ibm.com/cloud/learn/neural-networks){:target="_blank"}
+
 
 
 ## Setup
