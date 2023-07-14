@@ -4,7 +4,7 @@ Simple implementation of feed forward and backward passes of a neural network wi
 
 Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb. 
 
-## Brief Introduction to Deep Learning
+## Brief Introduction to Machine Learning
 
 Ever since I joined the [AI Club at UCI](https://aiclub.ics.uci.edu/){:target="_blank"} back in September 2021, I have been 
 furiously studying machine learning. Machine learning is something that is quite magical, and the last 50 to 70 years of research in numerous fields, including but not limited to statistics, psychology, linguisitics, and of course, artificial intelligence, has definitely paved a 'work in progress' structure for people like myself to build upon.
@@ -20,7 +20,7 @@ algorithms as something that maps inputs to desired outputs through a model whos
 Let's break this down. First, what is an algorithm? The Oxford dictionary defines it as 'a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.' So, in our case, the process or set of rules to be followed is to map inputs to desired outputs. The calculations or problem-solving operations would be performed in the model, and the parameters would be the variables that need to be computed while interacting with the inputs and outputs. These parameters than need to be exposed to an arbitrary set of data in a repetitive manner for it to 'train.' To further explain what the word 'trained' means in the definition, I believe a real-world example would be best.
 
 
-Let's say you want to have muscles like the person shown below. 
+Let's say you want to have muscles like the person shown below:
 
 <p align="center">
   <img src="/png/aesthetic.jpeg" style="height: 100; width:300px; display: block; margin: 0 auto"/>
