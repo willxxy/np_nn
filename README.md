@@ -59,7 +59,7 @@ Now, what if there are no apparent features or parameters within a dataset? This
 </p>
 
 Neural networks have transformed the landscape of deep learning, propelling advancements in various domains by capturing complex patterns and making accurate predictions. 
-Rooted in a rich history that dates back to the groundbreaking work of McCulloch and Pitts in the 1940s (3), neural networks have witnessed remarkable progress in both theory and application. This introduction provides a concise and engaging overview of neural networks, presenting key mathematical concepts in a comprehensible manner while contextualizing their historical significance.
+Rooted in a rich history that dates back to the groundbreaking work of McCulloch and Pitts in the 1940s [3], neural networks have witnessed remarkable progress in both theory and application. This introduction provides a concise and engaging overview of neural networks, presenting key mathematical concepts in a comprehensible manner while contextualizing their historical significance.
 
 Inspired by the intricate workings of the human brain, neural networks are composed of interconnected nodes called neurons, organized in layers that process and transmit information. Each neuron receives inputs, applies mathematical transformations, and passes the outputs to the next layer, enabling the network to learn intricate relationships within the data.
 
