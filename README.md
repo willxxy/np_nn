@@ -41,7 +41,7 @@ To battle complex inputs and non-linearity, traditional machine learning algorit
 This distillation is called feature extraction and machine learning algorithms can capture rich traits of the data, such as spatial context, multi-resolution, locality, and globality. 
 
 <p align="center">
-  <img src="/png/mnist.png" style="height: 100; width:300px; display: block; margin: 0 auto"/>
+  <img src="/png/mnist.png" style="height: 100; width:300px; display: block; margin: 0 auto"/><br>
   <em>Note: We will be using this dataset!</em>
 </p>
 
