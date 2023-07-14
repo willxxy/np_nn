@@ -4,9 +4,7 @@ Simple implementation of feed forward and backward passes of a neural network wi
 
 Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb. 
 
-## Introduction
-
-### Intro to Machine Learning
+## Introduction to Machine Learning
 
 Ever since I joined the [AI Club at UCI](https://aiclub.ics.uci.edu/){:target="_blank"} back in September 2021, I have been 
 furiously studying machine learning. Machine learning is something that is quite magical, and the last 50 to 70 years of research in statistics, neural
