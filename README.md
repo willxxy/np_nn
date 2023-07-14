@@ -6,11 +6,11 @@ Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratc
 
 ## Brief Introduction to Machine Learning
 
-Ever since I joined the [AI Club at UCI](https://aiclub.ics.uci.edu/){:target="_blank"} back in September 2021, I have been 
+Ever since I joined the [AI Club at UCI](https://aiclub.ics.uci.edu/) back in September 2021, I have been 
 furiously studying machine learning. Machine learning is something that is quite magical, and the last 50 to 70 years of research in numerous fields, including but not limited to statistics, psychology, linguisitics, and of course, artificial intelligence, has definitely paved a 'work in progress' structure for people like myself to build upon.
 
-So with that, I want to start this attempt to introduce machine learning with a definition coined by [Dr. Peter Chang](https://www.faculty.uci.edu/profile.cfm?faculty_id=6569){:target="_blank"}, 
-a radiologist by training and Co-Director of the [Center for Artificial Intelligence in Diagnostic Medicine](https://www.caidm.som.uci.edu/){:target="_blank"}. He defines machine learning
+So with that, I want to start this attempt to introduce machine learning with a definition coined by [Dr. Peter Chang](https://www.faculty.uci.edu/profile.cfm?faculty_id=6569), 
+a radiologist by training and Co-Director of the [Center for Artificial Intelligence in Diagnostic Medicine](https://www.caidm.som.uci.edu/). He defines machine learning
 algorithms as something that maps inputs to desired outputs through a model whose parameters may be trained through iterative exposure to data [1]. 
 
 <p align="center">
@@ -47,10 +47,10 @@ It is important to note that these features do not need to be complex. However, 
 a huge amount of research has gone into transforming N-dimensional feature vector projections to something computers can understand. 
 Given these feature vectors, the most common function machine learning algorithms face is classification, which can be described as making predictions with existing data. 
 I will not go over any specific traditional machine learning algorithms, but here is a list of them for you to explore: 
-- [Support Vector Machine](https://en.wikipedia.org/wiki/Support-vector_machine){:target="_blank"}
-- [k-Nearest Neighbor](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm){:target="_blank"}
-- [XGBoost](https://xgboost.readthedocs.io/en/stable/){:target="_blank"}
-- [Random Forest](https://en.wikipedia.org/wiki/Random_forest#:~:text=Random%20forests%20or%20random%20decision,class%20selected%20by%20most%20trees.){:target="_blank"}
+- [Support Vector Machine](https://en.wikipedia.org/wiki/Support-vector_machine)
+- [k-Nearest Neighbor](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+- [XGBoost](https://xgboost.readthedocs.io/en/stable/)
+- [Random Forest](https://en.wikipedia.org/wiki/Random_forest#:~:text=Random%20forests%20or%20random%20decision,class%20selected%20by%20most%20trees.)
 
 Now, what if there are no apparent features or parameters within a dataset? This is where neural networks shine. 
 
@@ -74,18 +74,18 @@ the machine learning community dedicated in solving complex problems with neural
 
 I hope you enjoyed my very brief introduction to machine learning. If you are curious to learn more about this fascinating topic, I will provide a list of resources
 I used for myself. 
-- [Machine Learning Course by Andrew Ng](https://www.coursera.org/learn/machine-learning){:target="_blank"}
-- [Machine Learning Course by freeCodeCamp](https://www.youtube.com/watch?v=NWONeJKn6kc&t=50s){:target="_blank"}
-- [Machine Learning Course by Geoffrey Hinton](https://youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9){:target="_blank"}
-- [MNIST classifier with NumPy from scratch by George Hotz](https://www.youtube.com/watch?v=JRlyw6LO5qo&t=8s){:target="_blank"}
-- [Introduction to Neural Networks by Victor Zhou](https://victorzhou.com/blog/intro-to-neural-networks/){:target="_blank"}
+- [Machine Learning Course by Andrew Ng](https://www.coursera.org/learn/machine-learning)
+- [Machine Learning Course by freeCodeCamp](https://www.youtube.com/watch?v=NWONeJKn6kc&t=50s)
+- [Machine Learning Course by Geoffrey Hinton](https://youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9)
+- [MNIST classifier with NumPy from scratch by George Hotz](https://www.youtube.com/watch?v=JRlyw6LO5qo&t=8s)
+- [Introduction to Neural Networks by Victor Zhou](https://victorzhou.com/blog/intro-to-neural-networks/)
 
 
 References
 
-[1] [Machine Learning Definition](https://uci.yuja.com/V/MediaFile?mediaFile=420457&node=15536234&a=1231719205&autoplay=1){:target="_blank"}
+[1] [Machine Learning Definition](https://uci.yuja.com/V/MediaFile?mediaFile=420457&node=15536234&a=1231719205&autoplay=1)
 
-[2] [Neural Networks](https://www.ibm.com/cloud/learn/neural-networks){:target="_blank"}
+[2] [Neural Networks](https://www.ibm.com/cloud/learn/neural-networks)
 
 [3] McCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. The bulletin of mathematical biophysics, 5(4), 115-133.
 
