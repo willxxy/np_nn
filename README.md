@@ -74,8 +74,7 @@ Lastly, the historical narrative of neural networks highlights breakthroughs tha
 </p>
 
 
-I hope you enjoyed my very brief introduction to machine learning. If you are curious to learn more about this fascinating topic, I will provide a list of resources
-I used for myself. 
+I hope you enjoyed my very brief introduction to machine learning. If you are curious to learn more about this fascinating topic, below is a list of resources I previously used: 
 - [Machine Learning Course by Andrew Ng](https://www.coursera.org/learn/machine-learning)
 - [Machine Learning Course by freeCodeCamp](https://www.youtube.com/watch?v=NWONeJKn6kc&t=50s)
 - [Machine Learning Course by Geoffrey Hinton](https://youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9)
