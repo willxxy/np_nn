@@ -4,6 +4,9 @@ Simple implementation of feed forward and backward passes of a neural network wi
 
 Inspired by https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb. 
 
+### News
+- Dec. 9. 2023 ~ Added ResNet!
+
 ## Brief Introduction to Machine Learning
 
 Before setting up your computer to run your first neural network, I wanted to give a brief introduction to machine learning. 
