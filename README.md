@@ -207,11 +207,3 @@ If there are discrepancies (anything greater than +-0.01) between your test accu
 |-----------|----------|----------|----------|----------|----------|----------|
 |[geohot](https://github.com/geohot/ai-notebooks/blob/master/mnist_from_scratch.ipynb)| 0.9635    | 128 | 784| 128 | 1000 | 0.001 | 
 |**Ours**| 0.9805    | 256 | 784| 512 | 4000 | 0.001 | 
-
-
-
-## Short term TODOs
-- [] Create visualizations for forward and backward passes.
-
-## Long term TODOs
-- [] Implement more models.
